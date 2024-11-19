@@ -7,6 +7,9 @@ if(age===''){
 }else if(age>=18){
     document.getElementById('result').textContent='You are eligible for vote!';
     document.getElementById('result').style='red';
+}else if(age>=10 && age<=17){
+    document.getElementById('result').textContent='You are a kid now.';
+    document.getElementById('result').style='red';
 }else{
     document.getElementById('result').textContent = 'Sorry, you are not eligible to vote.';
     document.getElementById('result').style.color = 'red';
